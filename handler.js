@@ -468,7 +468,7 @@ global.dfail = (type, m, conn, usedPrefix) => {
         rowner: "```¡¡ 𝐒𝐎𝐋𝐎 𝐀𝐍𝐆𝐄𝐋 (𝐌𝐈 𝐂𝐑𝐄𝐀𝐃𝐎𝐑) 𝐏𝐔𝐄𝐃𝐄 𝐔𝐒𝐀𝐑 𝐄𝐒𝐓𝐄 𝐂𝐎𝐌𝐀𝐍𝐃𝐎 !!```",
         owner: "```¡¡ 𝐒𝐎𝐋𝐎 𝐀𝐍𝐆𝐄𝐋 (𝐌𝐈 𝐂𝐑𝐄𝐀𝐃𝐎𝐑) 𝐏𝐔𝐄𝐃𝐄 𝐔𝐒𝐀𝐑 𝐄𝐒𝐓𝐄 𝐂𝐎𝐌𝐀𝐍𝐃𝐎 !!```",
         mods: "```¡¡ 𝐒𝐎𝐋𝐎 𝐀𝐍𝐆𝐄𝐋 (𝐌𝐈 𝐂𝐑𝐄𝐀𝐃𝐎𝐑) 𝐏𝐔𝐄𝐃𝐄 𝐔𝐒𝐀𝐑 𝐄𝐒𝐓𝐄 𝐂𝐎𝐌𝐀𝐍𝐃𝐎 !!```",
-        premium: `⭐ Hola, este comando solo puede ser utilizado por Usuarios *Premium*.`,
+        premium: "```¡¡ 𝐒𝐎𝐋𝐎 𝐀𝐍𝐆𝐄𝐋 (𝐌𝐈 𝐂𝐑𝐄𝐀𝐃𝐎𝐑) 𝐏𝐔𝐄𝐃𝐄 𝐔𝐒𝐀𝐑 𝐄𝐒𝐓𝐄 𝐂𝐎𝐌𝐀𝐍𝐃𝐎 !!```",
         group: `😃 Hola, este comando solo puede ser utilizado en *Grupos*.`,
         private: `🕐 Hola, este comando solo puede ser utilizado en mi Chat *Privado*.`,
         admin: `😸 Hola, este comando solo puede ser utilizado por los *Administradores* del Grupo.`,
