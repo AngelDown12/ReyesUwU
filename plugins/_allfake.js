@@ -9,7 +9,7 @@ let img = catalogo
     forwardedNewsletterMessageInfo: {
       newsletterJid: "120363402177795471@newsletter",
       serverMessageId: 100,
-      newsletterName: '✨Twins bots✨💚❤️🩵',
+      newsletterName: '𝐀𝐍𝐆𝐄𝐋 𝐁𝐎𝐓 🧨',
     },
 	    externalAdReply: {
 				    showAdAttribution: true,
@@ -52,12 +52,12 @@ isForwarded: true,
 forwardedNewsletterMessageInfo: {
 newsletterJid: "120363402177795471@newsletter",
 serverMessageId: 100,
-newsletterName: '✨Twins bots✨💚❤️🩵',
+newsletterName: '𝐀𝐍𝐆𝐄𝐋 𝐁𝐎𝐓 🧨',
 },
 externalAdReply: { 
 showAdAttribution: true,
-title: '𝑺𝑶𝑭𝑰 - 𝑩𝑶𝑻',
-body: 'Sofi La Mejor',
+title: '𝐀𝐍𝐆𝐄𝐋 - 𝐁𝐎𝐓 🧨',
+body: '𝐀𝐍𝐆𝐄𝐋 𝐁𝐎𝐓 🧨',
 previewType: "PHOTO",
 thumbnailUrl: 'https://files.catbox.moe/ntyp5r.jpg',
 sourceUrl: 'https://files.catbox.moe/ntyp5r.jpg',
