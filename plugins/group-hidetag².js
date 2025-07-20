@@ -33,7 +33,7 @@ const handler = async (m, { conn, text, participants }) => {
       }
 
     } else if (m.quoted && !isMedia) {
-      // Texto citado
+      
       const msg = conn.cMod(
         m.chat,
         generateWAMessageFromContent(
@@ -48,7 +48,7 @@ const handler = async (m, { conn, text, participants }) => {
       await conn.relayMessage(m.chat, msg.message, { messageId: msg.key.id })
 
     } else if (!m.quoted && isMedia) {
-      // Mensaje propio con imagen/video + caption
+      
       const media = await m.download()
       if (q.mtype === 'imageMessage') {
         await conn.sendMessage(m.chat, { image: media, caption: finalCaption, mentions: users }, { quoted: m })
