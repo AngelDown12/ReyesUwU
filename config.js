@@ -12,7 +12,7 @@ import moment from 'moment-timezone'
 global.owner = [
   ['5217227584934', 'jid', 'Angel', true],
   [''],
-  ['5', 'jid', '@Sisked 👑', true],
+  ['', 'lid', '@Sisked 👑', true],
   [''],
   [''],
   [''],
