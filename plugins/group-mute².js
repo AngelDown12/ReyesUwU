@@ -64,7 +64,7 @@ handler.before = async (m, { conn }) => {
   }
 };
 
-// Activador sin prefijo
+
 handler.customPrefix = /^(mute|unmute)(\s|$)/i;
 handler.command = new RegExp;
 
