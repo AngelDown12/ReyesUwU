@@ -470,7 +470,7 @@ global.dfail = (type, m, conn, usedPrefix) => {
         mods: "```¡¡ 𝐒𝐎𝐋𝐎 𝐀𝐍𝐆𝐄𝐋 (𝐌𝐈 𝐂𝐑𝐄𝐀𝐃𝐎𝐑) 𝐏𝐔𝐄𝐃𝐄 𝐔𝐒𝐀𝐑 𝐄𝐒𝐓𝐄 𝐂𝐎𝐌𝐀𝐍𝐃𝐎 !!```",
         premium: "```¡¡ 𝐒𝐎𝐋𝐎 𝐀𝐍𝐆𝐄𝐋 (𝐌𝐈 𝐂𝐑𝐄𝐀𝐃𝐎𝐑) 𝐏𝐔𝐄𝐃𝐄 𝐔𝐒𝐀𝐑 𝐄𝐒𝐓𝐄 𝐂𝐎𝐌𝐀𝐍𝐃𝐎 !!```",
         group: "```¡¡ 𝐄𝐒𝐓𝐄 𝐂𝐎𝐌𝐀𝐍𝐃𝐎 𝐒𝐎𝐋𝐎 𝐒𝐄 𝐏𝐔𝐄𝐃𝐄 𝐔𝐒𝐀𝐑 𝐄𝐍 𝐆𝐑𝐔𝐏𝐎𝐒 !! ```",
-        private: `🕐 Hola, este comando solo puede ser utilizado en mi Chat *Privado*.`,
+        private: "```¡¡ 𝐄𝐒𝐓𝐄 𝐂𝐎𝐌𝐀𝐍𝐃𝐎 𝐒𝐎𝐋𝐎 𝐒𝐄 𝐏𝐔𝐄𝐃𝐄 𝐔𝐓𝐈𝐋𝐈𝐙𝐀𝐑 𝐄𝐍 𝐄𝐋 𝐏𝐑𝐈𝐕𝐀𝐃𝐎 𝐃𝐄𝐋 𝐁𝐎𝐓 !!```",
         admin: `😸 Hola, este comando solo puede ser utilizado por los *Administradores* del Grupo.`,
         botAdmin: `🤖 Hola, el bot debe ser *Administrador* para ejecutar este Comando.`,
         unreg: `👸🏻 Hola, para usar este comando debes estar *Registrado.*\n\nUtiliza: */reg nombre.edad*\n\n> Ejemplo: /reg Sofi.17`,
