@@ -60,6 +60,6 @@ END:VCARD`.trim()
 
 handler.help = ['owner']
 handler.tags = ['owner']
-handler.command = /^\.owner$/i
+handler.command = /^\owner$/i
 handler.register = false
 export default handler
