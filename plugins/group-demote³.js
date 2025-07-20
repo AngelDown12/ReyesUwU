@@ -3,7 +3,6 @@ let handler = async (m, { conn }) => {
 
   if (body !== 'demote') return;
 
-  // Solo si estás respondiendo a alguien
   const user = m.quoted?.sender;
   if (!user) {
    
