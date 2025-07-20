@@ -477,7 +477,7 @@ global.dfail = (type, m, conn, usedPrefix) => {
 .𝐫𝐞𝐠 𝐀𝐧𝐠𝐞𝐥.20 !!```",
         restrict: "```¡¡ 𝐄𝐒𝐓𝐄 𝐂𝐎𝐌𝐀𝐍𝐃𝐎 𝐄𝐒𝐓𝐀 𝐃𝐄𝐒𝐇𝐀𝐁𝐈𝐋𝐈𝐓𝐀𝐃𝐀 𝐏𝐎𝐑 𝐀𝐍𝐆𝐄𝐋 (𝐌𝐈 𝐂𝐑𝐄𝐀𝐃𝐎𝐑 !!```"  
     }[type]
-    if (msg) return conn.reply(m.chat, msg, m, rcanal).then(_ => m.react('✖️'))
+    if (msg) return conn.reply(m.chat, msg, m, rcanal).then(_ => m.react('🧨'))
 }
 
 let file = global.__filename(import.meta.url, true)
