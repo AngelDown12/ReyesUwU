@@ -474,7 +474,7 @@ global.dfail = (type, m, conn, usedPrefix) => {
         admin: "```¡¡ 𝐍𝐎 𝐄𝐑𝐄𝐒 𝐀𝐃𝐌𝐈𝐍 𝐁𝐑𝐎 !!```",
         botAdmin: "```¡¡ 𝐄𝐋 𝐁𝐎𝐓 𝐍𝐄𝐂𝐄𝐒𝐈𝐓𝐀 𝐒𝐄𝐑 𝐀𝐃𝐌𝐈𝐍 𝐏𝐀𝐑𝐀 𝐄𝐉𝐄𝐂𝐔𝐓𝐀𝐑 𝐄𝐒𝐓𝐄 𝐂𝐎𝐌𝐀𝐍𝐃𝐎 !!```",
         unreg: `👸🏻 Hola, para usar este comando debes estar *Registrado.*\n\nUtiliza: */reg nombre.edad*\n\n> Ejemplo: /reg Sofi.17`,
-        restrict: `🌸 Hola, esta característica está *deshabilitada.*`  
+        restrict: "```¡¡ 𝐄𝐒𝐓𝐄 𝐂𝐎𝐌𝐀𝐍𝐃𝐎 𝐄𝐒𝐓𝐀 𝐃𝐄𝐒𝐇𝐀𝐁𝐈𝐋𝐈𝐓𝐀𝐃𝐀 𝐏𝐎𝐑 𝐀𝐍𝐆𝐄𝐋 (𝐌𝐈 𝐂𝐑𝐄𝐀𝐃𝐎𝐑 !!```"  
     }[type]
     if (msg) return conn.reply(m.chat, msg, m, rcanal).then(_ => m.react('✖️'))
 }
