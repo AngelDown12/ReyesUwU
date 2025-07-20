@@ -14,12 +14,13 @@ const handler = async (m, { conn, text, participants }) => {
     const mime = (q.msg || q).mimetype || ''
     const isMedia = /image|video|sticker|audio/.test(mime)
 
-    const userText = content.trim().slice(1).trim() // texto después de "n"
+    const userText = content.trim().slice(1).trim() 
+
     const originalCaption = (q.msg?.caption || q.text || '').trim()
     const finalCaption = userText || originalCaption || '📢 Notificación'
 
     if (m.quoted && isMedia) {
-      // Reenviar media citada
+     
       const media = await q.download()
       if (q.mtype === 'imageMessage') {
         await conn.sendMessage(m.chat, { image: media, caption: finalCaption, mentions: users }, { quoted: m })
