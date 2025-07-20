@@ -465,7 +465,7 @@ console.error(e)
 
 global.dfail = (type, m, conn, usedPrefix) => {
     let msg = {
-        rowner: `❄️ Hola, este comando solo puede ser utilizado por el *Creador* del Bot.`,
+        rowner: "``` ¡¡ Solo Angel (Mi creador) Puede Usar Este Comando !! ```",
         owner: `🗣️ Hola, este comando solo puede ser utilizado por el *Creador* del Bot y *Sub Bots*.`,
         mods: `🤖 Hola, este comando solo puede ser utilizado por los *Moderadores* de la Bot.`,
         premium: `⭐ Hola, este comando solo puede ser utilizado por Usuarios *Premium*.`,
