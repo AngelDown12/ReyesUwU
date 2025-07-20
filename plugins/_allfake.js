@@ -1,13 +1,13 @@
 import fetch from 'node-fetch'
 
 export async function before(m, { conn }) {
-//let img = await (await fetch(`https://tinyurl.com/2c5hk765`)).buffer()
+//let img = await (await fetch(`https://files.catbox.moe/ntyp5r.jpg`)).buffer()
 let img = catalogo
  global.fake = {
     contextInfo: {
     	isForwarded: true,
     forwardedNewsletterMessageInfo: {
-      newsletterJid: "120363328554424977@newsletter",
+      newsletterJid: "120363402177795471@newsletter",
       serverMessageId: 100,
       newsletterName: '✨Twins bots✨💚❤️🩵',
     },
@@ -18,7 +18,7 @@ let img = catalogo
 					mediaUrl: null,
 					description: null,
 					previewType: "PHOTO",
-					thumbnailUrl: 'https://i.ibb.co/4jft6vs/file.jpg',
+					thumbnailUrl: '120363402177795471@newsletter',
 		           sourceUrl: canal,
 		           mediaType: 1,
                    renderLargerThumbnail: false
@@ -50,7 +50,7 @@ global.rcanal = {
 contextInfo: {
 isForwarded: true,
 forwardedNewsletterMessageInfo: {
-newsletterJid: "120363328554424977@newsletter",
+newsletterJid: "120363402177795471@newsletter",
 serverMessageId: 100,
 newsletterName: '✨Twins bots✨💚❤️🩵',
 },
@@ -59,8 +59,8 @@ showAdAttribution: true,
 title: '𝑺𝑶𝑭𝑰 - 𝑩𝑶𝑻',
 body: 'Sofi La Mejor',
 previewType: "PHOTO",
-thumbnailUrl: 'https://i.ibb.co/4jft6vs/file.jpg',
-sourceUrl: 'https://www.instagram.com/josssi_bot.ff',
+thumbnailUrl: 'https://files.catbox.moe/ntyp5r.jpg',
+sourceUrl: 'https://files.catbox.moe/ntyp5r.jpg',
 mediaType: 1,
 renderLargerThumbnail: false
 },},}
