@@ -5,14 +5,14 @@ let handler = async (m, { conn }) => {
 
   m.react('🧨')
 
-  const imageUrl = 'https://files.catbox.moe/iydxk1.jpg'
+  const imageUrl = 'https://files.catbox.moe/ntyp5r.jpg'
   const numCreador = '5217227584934'
   const ownerJid = numCreador + '@s.whatsapp.net'
 
   const name = '𝐀𝐍𝐆𝐄𝐋 🧨'
   const about = '𝐒𝐨𝐲 𝐀𝐧𝐠𝐞𝐥, 𝐃𝐮𝐞𝐧̃𝐨 𝐝𝐞𝐥 𝐁𝐨𝐭 𝐀𝐧𝐠𝐞𝐥 𝐛𝐨𝐭 🧨'
   const empresa = '𝐀𝐧𝐠𝐞𝐥 - 𝐒𝐞𝐫𝐯𝐢𝐜𝐢𝐨𝐬 𝐭𝐞𝐜𝐧𝐨𝐥𝐨́𝐠𝐢𝐜𝐨𝐬 🧨'
-  const instagramUrl = 'https://www.instagram.com/bki_hm66'
+  const instagramUrl = 'https://www.instagram.com/angxll_br?igsh=MXF1NWVtZ2xuejFlOA=='
 
   const vcard = `
 BEGIN:VCARD
